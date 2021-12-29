@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+footer {
+    background-color: aquamarine;
+    color: beige;
+}
+main div {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    padding: 20px;
+    display: inline;
+}
+/* .div-1{
+    color: yellow;
+    background-color: red;
+    margin-bottom: 20px;
+}
+.div-2{
+    color: rosybrown;
+    background-color: royalblue;
+    margin:30px;
+} */
+.div-1{
+    color: yellow;
+    background-color: red;
+    
+}
+.div-2{
+    color: rosybrown;
+    background-color: royalblue;
+    
+}
+.div-3 {
+    color: royalblue;
+    background-color: saddlebrown;
+}
+#footer-sec {
+    color: cadetblue;
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.parent {
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+    position: relative;
+}
+.parent div{
+    width: 100px;
+    height: 100px;
+}
+.div-1{
+    background-color: slateblue;
+    position: absolute;
+
+}
+.div-2{
+    background-color: rgb(174, 205, 90);
+    position:absolute;
+    right: 0px;
+    top: 0px;
+
+}
+.div-3{
+    background-color: rgb(167, 61, 167);
+    position: absolute;
+    bottom: 0px;
+
+}
+.div-4{
+    background-color: rgb(31, 155, 41);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.fix {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    color: white;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 25px;
+}
