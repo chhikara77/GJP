@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+}
+input[type =text] {
+    color: aquamarine;
+    background-color: yellow;
+}
+
+label {
+    cursor: pointer;
+    font-size: 30px;
+}
+select {
+    background-color: thistle;
+}
+option {
+    background-color: violet;
+}
