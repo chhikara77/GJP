@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+body,html {
+    height: 100%;
+}
+main {
+    height: 100%;
+    background-color: rgb(217, 244, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 9px 11px 45px -15px rgba(0,0,0,0.8);
+-webkit-box-shadow: 9px 11px 45px -15px rgba(0,0,0,0.8);
+-moz-box-shadow: 9px 11px 45px -15px rgba(0,0,0,0.8);
+}
+.login {
+    color: rgb(81, 116, 221);
+    font-weight: bolder;margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: small;
+
+}
+.login-into
+ {
+     color: rgb(41, 41, 202);
+     font-size: 25px;
+     font-weight: bold;
+     margin-bottom: 20px;
+ }
+ .label-text{
+  color: rgb(41, 41, 202);
+  margin-bottom: 10px;
+  font-size: small;
+ }
+ .input-text input {
+        margin-bottom: 15px;
+        border:1px solid rgb(81, 116, 221);
+        padding: 8px;
+        border-radius: 8px;
+ }
+ button{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border-style: none;
+ }
+ .forget{
+     text-align: center;
+     color: blue;
+
+ }
+ .plus {
+     position: absolute;
+     top: -15px;
+     right: -15px;
+     width: 50px;
+     height: 50px;
+     background-color: blue;
+     border-radius: 30%;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ .plus .circle {
+     border: 1px solid white;
+     height: 20px;
+     width: 20px;
+     display: flex;
+     justify-content: center;
+     border-radius: 50%;
+ }
+
